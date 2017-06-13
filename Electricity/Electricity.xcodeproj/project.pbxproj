@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E757C2671EEF86B2009A7D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2661EEF86B2009A7D76 /* main.m */; };
+		E757C26A1EEF86B2009A7D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2691EEF86B2009A7D76 /* AppDelegate.m */; };
+		E757C26D1EEF86B2009A7D76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C26C1EEF86B2009A7D76 /* ViewController.m */; };
+		E757C2701EEF86B2009A7D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E757C26E1EEF86B2009A7D76 /* Main.storyboard */; };
+		E757C2721EEF86B2009A7D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E757C2711EEF86B2009A7D76 /* Assets.xcassets */; };
+		E757C2751EEF86B2009A7D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E757C2731EEF86B2009A7D76 /* LaunchScreen.storyboard */; };
+		E757C2801EEF86B2009A7D76 /* ElectricityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C27F1EEF86B2009A7D76 /* ElectricityTests.m */; };
+		E757C28B1EEF86B2009A7D76 /* ElectricityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C28A1EEF86B2009A7D76 /* ElectricityUITests.m */; };
+		E757C2A31EEF8DDC009A7D76 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2A21EEF8DDC009A7D76 /* StartViewController.m */; };
+		E757C2C61EEF9418009A7D76 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2C51EEF9418009A7D76 /* MyTabBarController.m */; };
+		E757C2C91EEF94FC009A7D76 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2C81EEF94FC009A7D76 /* UIColor+HexString.m */; };
+		E757C2D41EEFB920009A7D76 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2D21EEFB920009A7D76 /* HomeViewController.m */; };
+		E757C2D71EEFBAE8009A7D76 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2D61EEFBAE8009A7D76 /* ClassifyViewController.m */; };
+		E757C2DA1EEFBAF4009A7D76 /* ShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2D91EEFBAF4009A7D76 /* ShopCarViewController.m */; };
+		E757C2DD1EEFBAFB009A7D76 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2DC1EEFBAFB009A7D76 /* MyViewController.m */; };
+		E757C2F51EEFC524009A7D76 /* tabbar-icon-home-hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2F11EEFC524009A7D76 /* tabbar-icon-home-hl@2x.png */; };
+		E757C2F61EEFC524009A7D76 /* tabbar-icon-home-hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2F21EEFC524009A7D76 /* tabbar-icon-home-hl@3x.png */; };
+		E757C2F71EEFC524009A7D76 /* tabbar-icon-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2F31EEFC524009A7D76 /* tabbar-icon-home@2x.png */; };
+		E757C2F81EEFC524009A7D76 /* tabbar-icon-home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2F41EEFC524009A7D76 /* tabbar-icon-home@3x.png */; };
+		E757C2FD1EEFC543009A7D76 /* tabbar-icon-works-hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2F91EEFC543009A7D76 /* tabbar-icon-works-hl@2x.png */; };
+		E757C2FE1EEFC543009A7D76 /* tabbar-icon-works-hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2FA1EEFC543009A7D76 /* tabbar-icon-works-hl@3x.png */; };
+		E757C2FF1EEFC543009A7D76 /* tabbar-icon-works@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2FB1EEFC543009A7D76 /* tabbar-icon-works@2x.png */; };
+		E757C3001EEFC543009A7D76 /* tabbar-icon-works@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C2FC1EEFC543009A7D76 /* tabbar-icon-works@3x.png */; };
+		E757C3051EEFC570009A7D76 /* tabbar-icon-makeup-hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C3011EEFC570009A7D76 /* tabbar-icon-makeup-hl@2x.png */; };
+		E757C3061EEFC570009A7D76 /* tabbar-icon-makeup-hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C3021EEFC570009A7D76 /* tabbar-icon-makeup-hl@3x.png */; };
+		E757C3071EEFC570009A7D76 /* tabbar-icon-makeup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C3031EEFC570009A7D76 /* tabbar-icon-makeup@2x.png */; };
+		E757C3081EEFC570009A7D76 /* tabbar-icon-makeup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C3041EEFC570009A7D76 /* tabbar-icon-makeup@3x.png */; };
+		E757C30D1EEFC58B009A7D76 /* tabbar-icon-me-hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C3091EEFC58B009A7D76 /* tabbar-icon-me-hl@2x.png */; };
+		E757C30E1EEFC58B009A7D76 /* tabbar-icon-me-hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C30A1EEFC58B009A7D76 /* tabbar-icon-me-hl@3x.png */; };
+		E757C30F1EEFC58B009A7D76 /* tabbar-icon-me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C30B1EEFC58B009A7D76 /* tabbar-icon-me@2x.png */; };
+		E757C3101EEFC58B009A7D76 /* tabbar-icon-me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C30C1EEFC58B009A7D76 /* tabbar-icon-me@3x.png */; };
+		E757C3131EEFC79C009A7D76 /* CustomTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C3121EEFC79C009A7D76 /* CustomTabbarController.m */; };
+		E775D3F71EEFEBED00592B09 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E775D3F61EEFEBED00592B09 /* BasicViewController.m */; };
+		E775D3FF1EEFECFA00592B09 /* LoginAndRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E775D3FE1EEFECFA00592B09 /* LoginAndRegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E757C27C1EEF86B2009A7D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E757C25A1EEF86B2009A7D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E757C2611EEF86B2009A7D76;
+			remoteInfo = Electricity;
+		};
+		E757C2871EEF86B2009A7D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E757C25A1EEF86B2009A7D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E757C2611EEF86B2009A7D76;
+			remoteInfo = Electricity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E757C2621EEF86B2009A7D76 /* Electricity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electricity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E757C2661EEF86B2009A7D76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E757C2681EEF86B2009A7D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E757C2691EEF86B2009A7D76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E757C26B1EEF86B2009A7D76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E757C26C1EEF86B2009A7D76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E757C26F1EEF86B2009A7D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E757C2711EEF86B2009A7D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E757C2741EEF86B2009A7D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E757C2761EEF86B2009A7D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E757C27B1EEF86B2009A7D76 /* ElectricityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E757C27F1EEF86B2009A7D76 /* ElectricityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricityTests.m; sourceTree = "<group>"; };
+		E757C2811EEF86B2009A7D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E757C2861EEF86B2009A7D76 /* ElectricityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E757C28A1EEF86B2009A7D76 /* ElectricityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricityUITests.m; sourceTree = "<group>"; };
+		E757C28C1EEF86B2009A7D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E757C29A1EEF88AC009A7D76 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E757C2A01EEF8D83009A7D76 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E757C2A11EEF8DDC009A7D76 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		E757C2A21EEF8DDC009A7D76 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		E757C2C41EEF9418009A7D76 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		E757C2C51EEF9418009A7D76 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		E757C2C71EEF94FC009A7D76 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		E757C2C81EEF94FC009A7D76 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		E757C2D11EEFB920009A7D76 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E757C2D21EEFB920009A7D76 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E757C2D51EEFBAE8009A7D76 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		E757C2D61EEFBAE8009A7D76 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		E757C2D81EEFBAF4009A7D76 /* ShopCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarViewController.h; sourceTree = "<group>"; };
+		E757C2D91EEFBAF4009A7D76 /* ShopCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarViewController.m; sourceTree = "<group>"; };
+		E757C2DB1EEFBAFB009A7D76 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E757C2DC1EEFBAFB009A7D76 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		E757C2F11EEFC524009A7D76 /* tabbar-icon-home-hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-home-hl@2x.png"; sourceTree = "<group>"; };
+		E757C2F21EEFC524009A7D76 /* tabbar-icon-home-hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-home-hl@3x.png"; sourceTree = "<group>"; };
+		E757C2F31EEFC524009A7D76 /* tabbar-icon-home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-home@2x.png"; sourceTree = "<group>"; };
+		E757C2F41EEFC524009A7D76 /* tabbar-icon-home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-home@3x.png"; sourceTree = "<group>"; };
+		E757C2F91EEFC543009A7D76 /* tabbar-icon-works-hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-works-hl@2x.png"; sourceTree = "<group>"; };
+		E757C2FA1EEFC543009A7D76 /* tabbar-icon-works-hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-works-hl@3x.png"; sourceTree = "<group>"; };
+		E757C2FB1EEFC543009A7D76 /* tabbar-icon-works@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-works@2x.png"; sourceTree = "<group>"; };
+		E757C2FC1EEFC543009A7D76 /* tabbar-icon-works@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-works@3x.png"; sourceTree = "<group>"; };
+		E757C3011EEFC570009A7D76 /* tabbar-icon-makeup-hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-makeup-hl@2x.png"; sourceTree = "<group>"; };
+		E757C3021EEFC570009A7D76 /* tabbar-icon-makeup-hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-makeup-hl@3x.png"; sourceTree = "<group>"; };
+		E757C3031EEFC570009A7D76 /* tabbar-icon-makeup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-makeup@2x.png"; sourceTree = "<group>"; };
+		E757C3041EEFC570009A7D76 /* tabbar-icon-makeup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-makeup@3x.png"; sourceTree = "<group>"; };
+		E757C3091EEFC58B009A7D76 /* tabbar-icon-me-hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-me-hl@2x.png"; sourceTree = "<group>"; };
+		E757C30A1EEFC58B009A7D76 /* tabbar-icon-me-hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-me-hl@3x.png"; sourceTree = "<group>"; };
+		E757C30B1EEFC58B009A7D76 /* tabbar-icon-me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-me@2x.png"; sourceTree = "<group>"; };
+		E757C30C1EEFC58B009A7D76 /* tabbar-icon-me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-me@3x.png"; sourceTree = "<group>"; };
+		E757C3111EEFC79C009A7D76 /* CustomTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbarController.h; sourceTree = "<group>"; };
+		E757C3121EEFC79C009A7D76 /* CustomTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarController.m; sourceTree = "<group>"; };
+		E775D3F51EEFEBED00592B09 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		E775D3F61EEFEBED00592B09 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		E775D3FD1EEFECFA00592B09 /* LoginAndRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAndRegisterViewController.h; sourceTree = "<group>"; };
+		E775D3FE1EEFECFA00592B09 /* LoginAndRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAndRegisterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E757C25F1EEF86B2009A7D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E757C2781EEF86B2009A7D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E757C2831EEF86B2009A7D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E757C2591EEF86B2009A7D76 = {
+			isa = PBXGroup;
+			children = (
+				E757C2641EEF86B2009A7D76 /* Electricity */,
+				E757C27E1EEF86B2009A7D76 /* ElectricityTests */,
+				E757C2891EEF86B2009A7D76 /* ElectricityUITests */,
+				E757C2631EEF86B2009A7D76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E757C2631EEF86B2009A7D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2621EEF86B2009A7D76 /* Electricity.app */,
+				E757C27B1EEF86B2009A7D76 /* ElectricityTests.xctest */,
+				E757C2861EEF86B2009A7D76 /* ElectricityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E757C2641EEF86B2009A7D76 /* Electricity */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2681EEF86B2009A7D76 /* AppDelegate.h */,
+				E757C2691EEF86B2009A7D76 /* AppDelegate.m */,
+				E757C26B1EEF86B2009A7D76 /* ViewController.h */,
+				E757C26C1EEF86B2009A7D76 /* ViewController.m */,
+				E757C29B1EEF8BFB009A7D76 /* All */,
+				E757C26E1EEF86B2009A7D76 /* Main.storyboard */,
+				E757C2711EEF86B2009A7D76 /* Assets.xcassets */,
+				E757C2731EEF86B2009A7D76 /* LaunchScreen.storyboard */,
+				E757C2651EEF86B2009A7D76 /* Supporting Files */,
+			);
+			path = Electricity;
+			sourceTree = "<group>";
+		};
+		E757C2651EEF86B2009A7D76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2761EEF86B2009A7D76 /* Info.plist */,
+				E757C2661EEF86B2009A7D76 /* main.m */,
+				E757C2A01EEF8D83009A7D76 /* Header.h */,
+				E757C29A1EEF88AC009A7D76 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E757C27E1EEF86B2009A7D76 /* ElectricityTests */ = {
+			isa = PBXGroup;
+			children = (
+				E757C27F1EEF86B2009A7D76 /* ElectricityTests.m */,
+				E757C2811EEF86B2009A7D76 /* Info.plist */,
+			);
+			path = ElectricityTests;
+			sourceTree = "<group>";
+		};
+		E757C2891EEF86B2009A7D76 /* ElectricityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E757C28A1EEF86B2009A7D76 /* ElectricityUITests.m */,
+				E757C28C1EEF86B2009A7D76 /* Info.plist */,
+			);
+			path = ElectricityUITests;
+			sourceTree = "<group>";
+		};
+		E757C29B1EEF8BFB009A7D76 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2CA1EEFB882009A7D76 /* Class */,
+				E757C2DF1EEFC09F009A7D76 /* Picture */,
+				E757C2DE1EEFBC23009A7D76 /* BasicClass */,
+				E757C2C01EEF9336009A7D76 /* PublicToolClass */,
+				E757C2AA1EEF90AB009A7D76 /* Threelibraries */,
+				E757C29C1EEF8BFB009A7D76 /* Tabbar */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		E757C29C1EEF8BFB009A7D76 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2A11EEF8DDC009A7D76 /* StartViewController.h */,
+				E757C2A21EEF8DDC009A7D76 /* StartViewController.m */,
+				E757C2C41EEF9418009A7D76 /* MyTabBarController.h */,
+				E757C2C51EEF9418009A7D76 /* MyTabBarController.m */,
+				E757C3111EEFC79C009A7D76 /* CustomTabbarController.h */,
+				E757C3121EEFC79C009A7D76 /* CustomTabbarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E757C2AA1EEF90AB009A7D76 /* Threelibraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Threelibraries;
+			sourceTree = "<group>";
+		};
+		E757C2C01EEF9336009A7D76 /* PublicToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2C71EEF94FC009A7D76 /* UIColor+HexString.h */,
+				E757C2C81EEF94FC009A7D76 /* UIColor+HexString.m */,
+			);
+			path = PublicToolClass;
+			sourceTree = "<group>";
+		};
+		E757C2CA1EEFB882009A7D76 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2D01EEFB920009A7D76 /* Home */,
+				E757C2CF1EEFB920009A7D76 /* Classify */,
+				E757C2CE1EEFB920009A7D76 /* Car */,
+				E757C2D31EEFB920009A7D76 /* My */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E757C2CE1EEFB920009A7D76 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2D81EEFBAF4009A7D76 /* ShopCarViewController.h */,
+				E757C2D91EEFBAF4009A7D76 /* ShopCarViewController.m */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		E757C2CF1EEFB920009A7D76 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2D51EEFBAE8009A7D76 /* ClassifyViewController.h */,
+				E757C2D61EEFBAE8009A7D76 /* ClassifyViewController.m */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		E757C2D01EEFB920009A7D76 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2D11EEFB920009A7D76 /* HomeViewController.h */,
+				E757C2D21EEFB920009A7D76 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E757C2D31EEFB920009A7D76 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2DB1EEFBAFB009A7D76 /* MyViewController.h */,
+				E757C2DC1EEFBAFB009A7D76 /* MyViewController.m */,
+				E775D3FC1EEFECFA00592B09 /* LoginAndRegister */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		E757C2DE1EEFBC23009A7D76 /* BasicClass */ = {
+			isa = PBXGroup;
+			children = (
+				E775D3F51EEFEBED00592B09 /* BasicViewController.h */,
+				E775D3F61EEFEBED00592B09 /* BasicViewController.m */,
+			);
+			path = BasicClass;
+			sourceTree = "<group>";
+		};
+		E757C2DF1EEFC09F009A7D76 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2E01EEFC0CC009A7D76 /* TabBarIcon */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
+		E757C2E01EEFC0CC009A7D76 /* TabBarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				E757C2F11EEFC524009A7D76 /* tabbar-icon-home-hl@2x.png */,
+				E757C2F21EEFC524009A7D76 /* tabbar-icon-home-hl@3x.png */,
+				E757C2F31EEFC524009A7D76 /* tabbar-icon-home@2x.png */,
+				E757C2F41EEFC524009A7D76 /* tabbar-icon-home@3x.png */,
+				E757C2F91EEFC543009A7D76 /* tabbar-icon-works-hl@2x.png */,
+				E757C2FA1EEFC543009A7D76 /* tabbar-icon-works-hl@3x.png */,
+				E757C2FB1EEFC543009A7D76 /* tabbar-icon-works@2x.png */,
+				E757C2FC1EEFC543009A7D76 /* tabbar-icon-works@3x.png */,
+				E757C3011EEFC570009A7D76 /* tabbar-icon-makeup-hl@2x.png */,
+				E757C3021EEFC570009A7D76 /* tabbar-icon-makeup-hl@3x.png */,
+				E757C3031EEFC570009A7D76 /* tabbar-icon-makeup@2x.png */,
+				E757C3041EEFC570009A7D76 /* tabbar-icon-makeup@3x.png */,
+				E757C3091EEFC58B009A7D76 /* tabbar-icon-me-hl@2x.png */,
+				E757C30A1EEFC58B009A7D76 /* tabbar-icon-me-hl@3x.png */,
+				E757C30B1EEFC58B009A7D76 /* tabbar-icon-me@2x.png */,
+				E757C30C1EEFC58B009A7D76 /* tabbar-icon-me@3x.png */,
+			);
+			path = TabBarIcon;
+			sourceTree = "<group>";
+		};
+		E775D3FC1EEFECFA00592B09 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				E775D3FD1EEFECFA00592B09 /* LoginAndRegisterViewController.h */,
+				E775D3FE1EEFECFA00592B09 /* LoginAndRegisterViewController.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E757C2611EEF86B2009A7D76 /* Electricity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E757C28F1EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "Electricity" */;
+			buildPhases = (
+				E757C25E1EEF86B2009A7D76 /* Sources */,
+				E757C25F1EEF86B2009A7D76 /* Frameworks */,
+				E757C2601EEF86B2009A7D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Electricity;
+			productName = Electricity;
+			productReference = E757C2621EEF86B2009A7D76 /* Electricity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E757C27A1EEF86B2009A7D76 /* ElectricityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E757C2921EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "ElectricityTests" */;
+			buildPhases = (
+				E757C2771EEF86B2009A7D76 /* Sources */,
+				E757C2781EEF86B2009A7D76 /* Frameworks */,
+				E757C2791EEF86B2009A7D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E757C27D1EEF86B2009A7D76 /* PBXTargetDependency */,
+			);
+			name = ElectricityTests;
+			productName = ElectricityTests;
+			productReference = E757C27B1EEF86B2009A7D76 /* ElectricityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E757C2851EEF86B2009A7D76 /* ElectricityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E757C2951EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "ElectricityUITests" */;
+			buildPhases = (
+				E757C2821EEF86B2009A7D76 /* Sources */,
+				E757C2831EEF86B2009A7D76 /* Frameworks */,
+				E757C2841EEF86B2009A7D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E757C2881EEF86B2009A7D76 /* PBXTargetDependency */,
+			);
+			name = ElectricityUITests;
+			productName = ElectricityUITests;
+			productReference = E757C2861EEF86B2009A7D76 /* ElectricityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E757C25A1EEF86B2009A7D76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lgl;
+				TargetAttributes = {
+					E757C2611EEF86B2009A7D76 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WZSZ3VSE2H;
+						ProvisioningStyle = Automatic;
+					};
+					E757C27A1EEF86B2009A7D76 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E757C2611EEF86B2009A7D76;
+					};
+					E757C2851EEF86B2009A7D76 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E757C2611EEF86B2009A7D76;
+					};
+				};
+			};
+			buildConfigurationList = E757C25D1EEF86B2009A7D76 /* Build configuration list for PBXProject "Electricity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E757C2591EEF86B2009A7D76;
+			productRefGroup = E757C2631EEF86B2009A7D76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E757C2611EEF86B2009A7D76 /* Electricity */,
+				E757C27A1EEF86B2009A7D76 /* ElectricityTests */,
+				E757C2851EEF86B2009A7D76 /* ElectricityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E757C2601EEF86B2009A7D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E757C2F51EEFC524009A7D76 /* tabbar-icon-home-hl@2x.png in Resources */,
+				E757C2F71EEFC524009A7D76 /* tabbar-icon-home@2x.png in Resources */,
+				E757C2751EEF86B2009A7D76 /* LaunchScreen.storyboard in Resources */,
+				E757C30F1EEFC58B009A7D76 /* tabbar-icon-me@2x.png in Resources */,
+				E757C3061EEFC570009A7D76 /* tabbar-icon-makeup-hl@3x.png in Resources */,
+				E757C2721EEF86B2009A7D76 /* Assets.xcassets in Resources */,
+				E757C30E1EEFC58B009A7D76 /* tabbar-icon-me-hl@3x.png in Resources */,
+				E757C30D1EEFC58B009A7D76 /* tabbar-icon-me-hl@2x.png in Resources */,
+				E757C2F81EEFC524009A7D76 /* tabbar-icon-home@3x.png in Resources */,
+				E757C2F61EEFC524009A7D76 /* tabbar-icon-home-hl@3x.png in Resources */,
+				E757C3101EEFC58B009A7D76 /* tabbar-icon-me@3x.png in Resources */,
+				E757C3071EEFC570009A7D76 /* tabbar-icon-makeup@2x.png in Resources */,
+				E757C3081EEFC570009A7D76 /* tabbar-icon-makeup@3x.png in Resources */,
+				E757C2FF1EEFC543009A7D76 /* tabbar-icon-works@2x.png in Resources */,
+				E757C3051EEFC570009A7D76 /* tabbar-icon-makeup-hl@2x.png in Resources */,
+				E757C3001EEFC543009A7D76 /* tabbar-icon-works@3x.png in Resources */,
+				E757C2FD1EEFC543009A7D76 /* tabbar-icon-works-hl@2x.png in Resources */,
+				E757C2701EEF86B2009A7D76 /* Main.storyboard in Resources */,
+				E757C2FE1EEFC543009A7D76 /* tabbar-icon-works-hl@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E757C2791EEF86B2009A7D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E757C2841EEF86B2009A7D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E757C25E1EEF86B2009A7D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E757C3131EEFC79C009A7D76 /* CustomTabbarController.m in Sources */,
+				E757C2DA1EEFBAF4009A7D76 /* ShopCarViewController.m in Sources */,
+				E757C2D71EEFBAE8009A7D76 /* ClassifyViewController.m in Sources */,
+				E757C26D1EEF86B2009A7D76 /* ViewController.m in Sources */,
+				E757C2A31EEF8DDC009A7D76 /* StartViewController.m in Sources */,
+				E775D3F71EEFEBED00592B09 /* BasicViewController.m in Sources */,
+				E757C2DD1EEFBAFB009A7D76 /* MyViewController.m in Sources */,
+				E757C26A1EEF86B2009A7D76 /* AppDelegate.m in Sources */,
+				E775D3FF1EEFECFA00592B09 /* LoginAndRegisterViewController.m in Sources */,
+				E757C2671EEF86B2009A7D76 /* main.m in Sources */,
+				E757C2C91EEF94FC009A7D76 /* UIColor+HexString.m in Sources */,
+				E757C2D41EEFB920009A7D76 /* HomeViewController.m in Sources */,
+				E757C2C61EEF9418009A7D76 /* MyTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E757C2771EEF86B2009A7D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E757C2801EEF86B2009A7D76 /* ElectricityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E757C2821EEF86B2009A7D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E757C28B1EEF86B2009A7D76 /* ElectricityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E757C27D1EEF86B2009A7D76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E757C2611EEF86B2009A7D76 /* Electricity */;
+			targetProxy = E757C27C1EEF86B2009A7D76 /* PBXContainerItemProxy */;
+		};
+		E757C2881EEF86B2009A7D76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E757C2611EEF86B2009A7D76 /* Electricity */;
+			targetProxy = E757C2871EEF86B2009A7D76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E757C26E1EEF86B2009A7D76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E757C26F1EEF86B2009A7D76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E757C2731EEF86B2009A7D76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E757C2741EEF86B2009A7D76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E757C28D1EEF86B2009A7D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E757C28E1EEF86B2009A7D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E757C2901EEF86B2009A7D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZSZ3VSE2H;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Electricity/PrefixHeader.pch";
+				INFOPLIST_FILE = Electricity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = lgl.Electricity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E757C2911EEF86B2009A7D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZSZ3VSE2H;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Electricity/PrefixHeader.pch";
+				INFOPLIST_FILE = Electricity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = lgl.Electricity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E757C2931EEF86B2009A7D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectricityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lgl.ElectricityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Electricity.app/Electricity";
+			};
+			name = Debug;
+		};
+		E757C2941EEF86B2009A7D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectricityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lgl.ElectricityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Electricity.app/Electricity";
+			};
+			name = Release;
+		};
+		E757C2961EEF86B2009A7D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectricityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lgl.ElectricityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Electricity;
+			};
+			name = Debug;
+		};
+		E757C2971EEF86B2009A7D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectricityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lgl.ElectricityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Electricity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E757C25D1EEF86B2009A7D76 /* Build configuration list for PBXProject "Electricity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E757C28D1EEF86B2009A7D76 /* Debug */,
+				E757C28E1EEF86B2009A7D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E757C28F1EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "Electricity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E757C2901EEF86B2009A7D76 /* Debug */,
+				E757C2911EEF86B2009A7D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E757C2921EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "ElectricityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E757C2931EEF86B2009A7D76 /* Debug */,
+				E757C2941EEF86B2009A7D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E757C2951EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "ElectricityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E757C2961EEF86B2009A7D76 /* Debug */,
+				E757C2971EEF86B2009A7D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E757C25A1EEF86B2009A7D76 /* Project object */;
+}

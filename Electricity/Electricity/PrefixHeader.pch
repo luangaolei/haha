@@ -1,0 +1,115 @@
+//
+//  PrefixHeader.pch
+//  Electricity
+//
+//  Created by lgl on 2017/6/13.
+//  Copyright © 2017年 lgl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+// 屏幕高度
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+// 屏幕宽度
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define Is480Screen (HEIGHT == 480.0)     //      iPhone 4
+#define Is568Screen (HEIGHT == 568.0)     //      iPhone 5
+#define Is667Screen (HEIGHT == 667.0)     // 4.7, iPhone6
+#define Is960Screen (HEIGHT == 736.0)     // 5.5, iPhone6+
+#define KSizeScale  (HEIGHT>667?1.104:WIDTH==375?1:0.8533)
+
+//Tabbar的颜色（主色）橙色
+#define KFFB27D @"#FFB27D"
+//文字色
+#define KEE750C @"#EE750C"
+//背景颜色
+#define Kf0f5f5 @"#f0f5f5"
+//正常字体颜色（资讯页面）
+#define K141e28 @"#141e28"
+//灰色字体
+#define K8c96a0 @"#8c96a0"
+//浅色字体
+#define K9ba0a0 @"#9ba0a0"
+//白色字体
+#define Kffffff @"#ffffff"
+//红色字体
+#define Kfa6e64 @"#fa6e64"
+//分割线
+#define Ke7eded @"#e7eded"
+//边框线
+#define Kc3c8c8 @"#c3c8c8"
+//条框背景颜色
+#define K6ed7c8 @"#6ed7c8"
+//导航栏字体颜色
+//#define KNavColor @"#3a3a3a"
+//#3a3a3a
+#define K3a3a3a @"#3a3a3a"
+//内容字 图标+圆角矩形
+#define K4c4c4c @"#4c4c4c"
+//已约满 灰色背景
+#define Kb3b3b3 @"#b3b3b3"
+//类似placeholder颜色
+#define Kbfc1c3 @"#bfc1c3"
+//9a9a9a
+#define K9a9a9a @"#9a9a9a"
+//9fd7dc//在线客服tableview北京
+#define K9FD7DC @"#9FD7DC"
+//979797
+#define K979797 @"#979797"
+//头像边框颜色
+#define kd7dcdc @"#d7dcdc"
+//cell分割线颜色
+#define kD1D1D3 @"#D1D1D3"
+
+#define kedf9f7 @"#edf9f7"
+//购物车商品无效 灰色背景
+#define Kfafafa @"#fafafa"
+
+#define Kf9f9f9 @"#f9f9f9"
+
+//导航栏标题字体大小
+#define kNav_font 16 * KSizeScale
+//导航栏字体颜色
+#define KNavColor @"#3a3a3a"
+
+
+// 数字字号
+#define k36 36
+
+#define k18Digital_font 18
+// 标题字号
+#define k16Title_font 16
+// 小标题字号
+#define k15SmallTitle_font 15
+// 内容字号
+#define k14Content_font 14
+// 提示性文字 字号
+#define k13Prompt_font 13
+// 特殊文字 字号
+#define k12Special_font 12
+//11
+#define k11Special_font 11
+// 特殊文字 字号
+#define k11Special_font 11
+// 特殊文字 字号
+#define k10Special_font 10
+// 特殊文字 字号
+#define k9Special_font 9
+
+//placeHolderImage
+#define kPlaceHolderImage @"works-list-default-img"
+
+#define kUIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#import "Header.h"
+#import "UIColor+HexString.h"
+#import "LoginAndRegisterViewController.h"
+
+
+#endif /* PrefixHeader_pch */
