@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95CC77AFAA661EAA44FD9CFD /* libPods-Electricity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0039F95F1AE7492BFD126B /* libPods-Electricity.a */; };
+		E75241691EF101D200D68E6F /* BasicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75241681EF101D200D68E6F /* BasicTableView.m */; };
 		E757C2671EEF86B2009A7D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2661EEF86B2009A7D76 /* main.m */; };
 		E757C26A1EEF86B2009A7D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2691EEF86B2009A7D76 /* AppDelegate.m */; };
 		E757C26D1EEF86B2009A7D76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C26C1EEF86B2009A7D76 /* ViewController.m */; };
@@ -39,8 +41,26 @@
 		E757C30F1EEFC58B009A7D76 /* tabbar-icon-me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C30B1EEFC58B009A7D76 /* tabbar-icon-me@2x.png */; };
 		E757C3101EEFC58B009A7D76 /* tabbar-icon-me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757C30C1EEFC58B009A7D76 /* tabbar-icon-me@3x.png */; };
 		E757C3131EEFC79C009A7D76 /* CustomTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C3121EEFC79C009A7D76 /* CustomTabbarController.m */; };
+		E765DD561EF108B500B7C49A /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E765DD551EF108B500B7C49A /* UIScrollView+Refresh.m */; };
+		E765DD5A1EF1191200B7C49A /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E765DD581EF1191200B7C49A /* search@2x.png */; };
+		E765DD5B1EF1191200B7C49A /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E765DD591EF1191200B7C49A /* search@3x.png */; };
+		E765DD5E1EF11A8700B7C49A /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E765DD5C1EF11A8700B7C49A /* message@2x.png */; };
+		E765DD5F1EF11A8700B7C49A /* message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E765DD5D1EF11A8700B7C49A /* message@3x.png */; };
 		E775D3F71EEFEBED00592B09 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E775D3F61EEFEBED00592B09 /* BasicViewController.m */; };
 		E775D3FF1EEFECFA00592B09 /* LoginAndRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E775D3FE1EEFECFA00592B09 /* LoginAndRegisterViewController.m */; };
+		E7FF5A071EF235DD00F9C947 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF59FB1EF235DD00F9C947 /* 1.png */; };
+		E7FF5A081EF235DD00F9C947 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF59FC1EF235DD00F9C947 /* 2.png */; };
+		E7FF5A091EF235DD00F9C947 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF59FD1EF235DD00F9C947 /* 3.png */; };
+		E7FF5A0A1EF235DD00F9C947 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF59FE1EF235DD00F9C947 /* 4.png */; };
+		E7FF5A0B1EF235DD00F9C947 /* ip6-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF59FF1EF235DD00F9C947 /* ip6-1.png */; };
+		E7FF5A0C1EF235DD00F9C947 /* ip6-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A001EF235DD00F9C947 /* ip6-2.png */; };
+		E7FF5A0D1EF235DD00F9C947 /* ip6-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A011EF235DD00F9C947 /* ip6-3.png */; };
+		E7FF5A0E1EF235DD00F9C947 /* ip6-4.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A021EF235DD00F9C947 /* ip6-4.png */; };
+		E7FF5A0F1EF235DD00F9C947 /* ip6plus-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A031EF235DD00F9C947 /* ip6plus-1.png */; };
+		E7FF5A101EF235DD00F9C947 /* ip6plus-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A041EF235DD00F9C947 /* ip6plus-2.png */; };
+		E7FF5A111EF235DD00F9C947 /* ip6plus-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A051EF235DD00F9C947 /* ip6plus-3.png */; };
+		E7FF5A121EF235DD00F9C947 /* ip6plus-4.png in Resources */ = {isa = PBXBuildFile; fileRef = E7FF5A061EF235DD00F9C947 /* ip6plus-4.png */; };
+		E7FF5A161EF23B0100F9C947 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FF5A151EF23B0100F9C947 /* HomeHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +81,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79CED193F2310BB60FF2C061 /* Pods-Electricity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electricity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Electricity/Pods-Electricity.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0039F95F1AE7492BFD126B /* libPods-Electricity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Electricity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75241671EF101D200D68E6F /* BasicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTableView.h; sourceTree = "<group>"; };
+		E75241681EF101D200D68E6F /* BasicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTableView.m; sourceTree = "<group>"; };
 		E757C2621EEF86B2009A7D76 /* Electricity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electricity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E757C2661EEF86B2009A7D76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E757C2681EEF86B2009A7D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,10 +135,31 @@
 		E757C30C1EEFC58B009A7D76 /* tabbar-icon-me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-me@3x.png"; sourceTree = "<group>"; };
 		E757C3111EEFC79C009A7D76 /* CustomTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbarController.h; sourceTree = "<group>"; };
 		E757C3121EEFC79C009A7D76 /* CustomTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarController.m; sourceTree = "<group>"; };
+		E765DD541EF108B500B7C49A /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		E765DD551EF108B500B7C49A /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		E765DD581EF1191200B7C49A /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		E765DD591EF1191200B7C49A /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		E765DD5C1EF11A8700B7C49A /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		E765DD5D1EF11A8700B7C49A /* message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@3x.png"; sourceTree = "<group>"; };
 		E775D3F51EEFEBED00592B09 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		E775D3F61EEFEBED00592B09 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 		E775D3FD1EEFECFA00592B09 /* LoginAndRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAndRegisterViewController.h; sourceTree = "<group>"; };
 		E775D3FE1EEFECFA00592B09 /* LoginAndRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAndRegisterViewController.m; sourceTree = "<group>"; };
+		E7FF59FB1EF235DD00F9C947 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E7FF59FC1EF235DD00F9C947 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E7FF59FD1EF235DD00F9C947 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E7FF59FE1EF235DD00F9C947 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E7FF59FF1EF235DD00F9C947 /* ip6-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6-1.png"; sourceTree = "<group>"; };
+		E7FF5A001EF235DD00F9C947 /* ip6-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6-2.png"; sourceTree = "<group>"; };
+		E7FF5A011EF235DD00F9C947 /* ip6-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6-3.png"; sourceTree = "<group>"; };
+		E7FF5A021EF235DD00F9C947 /* ip6-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6-4.png"; sourceTree = "<group>"; };
+		E7FF5A031EF235DD00F9C947 /* ip6plus-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6plus-1.png"; sourceTree = "<group>"; };
+		E7FF5A041EF235DD00F9C947 /* ip6plus-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6plus-2.png"; sourceTree = "<group>"; };
+		E7FF5A051EF235DD00F9C947 /* ip6plus-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6plus-3.png"; sourceTree = "<group>"; };
+		E7FF5A061EF235DD00F9C947 /* ip6plus-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ip6plus-4.png"; sourceTree = "<group>"; };
+		E7FF5A141EF23B0100F9C947 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		E7FF5A151EF23B0100F9C947 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		F0BA2939393C596A9338BCF9 /* Pods-Electricity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electricity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Electricity/Pods-Electricity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CC77AFAA661EAA44FD9CFD /* libPods-Electricity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +188,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B656CC618DFBE72486D8BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0039F95F1AE7492BFD126B /* libPods-Electricity.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D57D94938D84ACC2A485E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79CED193F2310BB60FF2C061 /* Pods-Electricity.debug.xcconfig */,
+				F0BA2939393C596A9338BCF9 /* Pods-Electricity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E752416A1EF102A000D68E6F /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E765DD541EF108B500B7C49A /* UIScrollView+Refresh.h */,
+				E765DD551EF108B500B7C49A /* UIScrollView+Refresh.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
 		E757C2591EEF86B2009A7D76 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +221,8 @@
 				E757C27E1EEF86B2009A7D76 /* ElectricityTests */,
 				E757C2891EEF86B2009A7D76 /* ElectricityUITests */,
 				E757C2631EEF86B2009A7D76 /* Products */,
+				98D57D94938D84ACC2A485E5 /* Pods */,
+				2B656CC618DFBE72486D8BCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,12 +297,12 @@
 		E757C29C1EEF8BFB009A7D76 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				E757C2A11EEF8DDC009A7D76 /* StartViewController.h */,
-				E757C2A21EEF8DDC009A7D76 /* StartViewController.m */,
 				E757C2C41EEF9418009A7D76 /* MyTabBarController.h */,
 				E757C2C51EEF9418009A7D76 /* MyTabBarController.m */,
 				E757C3111EEFC79C009A7D76 /* CustomTabbarController.h */,
 				E757C3121EEFC79C009A7D76 /* CustomTabbarController.m */,
+				E757C2A11EEF8DDC009A7D76 /* StartViewController.h */,
+				E757C2A21EEF8DDC009A7D76 /* StartViewController.m */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -243,6 +317,7 @@
 		E757C2C01EEF9336009A7D76 /* PublicToolClass */ = {
 			isa = PBXGroup;
 			children = (
+				E752416A1EF102A000D68E6F /* MJRefresh */,
 				E757C2C71EEF94FC009A7D76 /* UIColor+HexString.h */,
 				E757C2C81EEF94FC009A7D76 /* UIColor+HexString.m */,
 			);
@@ -283,6 +358,8 @@
 			children = (
 				E757C2D11EEFB920009A7D76 /* HomeViewController.h */,
 				E757C2D21EEFB920009A7D76 /* HomeViewController.m */,
+				E765DD601EF11F3200B7C49A /* Model */,
+				E765DD611EF11F3200B7C49A /* view */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -302,6 +379,8 @@
 			children = (
 				E775D3F51EEFEBED00592B09 /* BasicViewController.h */,
 				E775D3F61EEFEBED00592B09 /* BasicViewController.m */,
+				E75241671EF101D200D68E6F /* BasicTableView.h */,
+				E75241681EF101D200D68E6F /* BasicTableView.m */,
 			);
 			path = BasicClass;
 			sourceTree = "<group>";
@@ -309,6 +388,8 @@
 		E757C2DF1EEFC09F009A7D76 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				E7FF59FA1EF2358B00F9C947 /* QiDongYeImage */,
+				E765DD571EF1191200B7C49A /* HomeImage */,
 				E757C2E01EEFC0CC009A7D76 /* TabBarIcon */,
 			);
 			path = Picture;
@@ -337,6 +418,32 @@
 			path = TabBarIcon;
 			sourceTree = "<group>";
 		};
+		E765DD571EF1191200B7C49A /* HomeImage */ = {
+			isa = PBXGroup;
+			children = (
+				E765DD5C1EF11A8700B7C49A /* message@2x.png */,
+				E765DD5D1EF11A8700B7C49A /* message@3x.png */,
+				E765DD581EF1191200B7C49A /* search@2x.png */,
+				E765DD591EF1191200B7C49A /* search@3x.png */,
+			);
+			path = HomeImage;
+			sourceTree = "<group>";
+		};
+		E765DD601EF11F3200B7C49A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E765DD611EF11F3200B7C49A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7FF5A131EF23AC200F9C947 /* headerView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		E775D3FC1EEFECFA00592B09 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +453,34 @@
 			path = LoginAndRegister;
 			sourceTree = "<group>";
 		};
+		E7FF59FA1EF2358B00F9C947 /* QiDongYeImage */ = {
+			isa = PBXGroup;
+			children = (
+				E7FF59FB1EF235DD00F9C947 /* 1.png */,
+				E7FF59FC1EF235DD00F9C947 /* 2.png */,
+				E7FF59FD1EF235DD00F9C947 /* 3.png */,
+				E7FF59FE1EF235DD00F9C947 /* 4.png */,
+				E7FF59FF1EF235DD00F9C947 /* ip6-1.png */,
+				E7FF5A001EF235DD00F9C947 /* ip6-2.png */,
+				E7FF5A011EF235DD00F9C947 /* ip6-3.png */,
+				E7FF5A021EF235DD00F9C947 /* ip6-4.png */,
+				E7FF5A031EF235DD00F9C947 /* ip6plus-1.png */,
+				E7FF5A041EF235DD00F9C947 /* ip6plus-2.png */,
+				E7FF5A051EF235DD00F9C947 /* ip6plus-3.png */,
+				E7FF5A061EF235DD00F9C947 /* ip6plus-4.png */,
+			);
+			path = QiDongYeImage;
+			sourceTree = "<group>";
+		};
+		E7FF5A131EF23AC200F9C947 /* headerView */ = {
+			isa = PBXGroup;
+			children = (
+				E7FF5A141EF23B0100F9C947 /* HomeHeaderView.h */,
+				E7FF5A151EF23B0100F9C947 /* HomeHeaderView.m */,
+			);
+			path = headerView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,9 +488,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E757C28F1EEF86B2009A7D76 /* Build configuration list for PBXNativeTarget "Electricity" */;
 			buildPhases = (
+				7C7AA83057B0E67D3ECF5EE3 /* [CP] Check Pods Manifest.lock */,
 				E757C25E1EEF86B2009A7D76 /* Sources */,
 				E757C25F1EEF86B2009A7D76 /* Frameworks */,
 				E757C2601EEF86B2009A7D76 /* Resources */,
+				C40EDC9AA479B13F2317C46A /* [CP] Embed Pods Frameworks */,
+				87900B62BE0D6AD50AF455EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -454,6 +592,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E757C2F51EEFC524009A7D76 /* tabbar-icon-home-hl@2x.png in Resources */,
+				E7FF5A0E1EF235DD00F9C947 /* ip6-4.png in Resources */,
 				E757C2F71EEFC524009A7D76 /* tabbar-icon-home@2x.png in Resources */,
 				E757C2751EEF86B2009A7D76 /* LaunchScreen.storyboard in Resources */,
 				E757C30F1EEFC58B009A7D76 /* tabbar-icon-me@2x.png in Resources */,
@@ -461,17 +600,32 @@
 				E757C2721EEF86B2009A7D76 /* Assets.xcassets in Resources */,
 				E757C30E1EEFC58B009A7D76 /* tabbar-icon-me-hl@3x.png in Resources */,
 				E757C30D1EEFC58B009A7D76 /* tabbar-icon-me-hl@2x.png in Resources */,
+				E765DD5E1EF11A8700B7C49A /* message@2x.png in Resources */,
+				E7FF5A0A1EF235DD00F9C947 /* 4.png in Resources */,
+				E7FF5A071EF235DD00F9C947 /* 1.png in Resources */,
+				E765DD5A1EF1191200B7C49A /* search@2x.png in Resources */,
 				E757C2F81EEFC524009A7D76 /* tabbar-icon-home@3x.png in Resources */,
+				E7FF5A121EF235DD00F9C947 /* ip6plus-4.png in Resources */,
+				E7FF5A081EF235DD00F9C947 /* 2.png in Resources */,
 				E757C2F61EEFC524009A7D76 /* tabbar-icon-home-hl@3x.png in Resources */,
 				E757C3101EEFC58B009A7D76 /* tabbar-icon-me@3x.png in Resources */,
+				E7FF5A111EF235DD00F9C947 /* ip6plus-3.png in Resources */,
+				E7FF5A101EF235DD00F9C947 /* ip6plus-2.png in Resources */,
+				E7FF5A0F1EF235DD00F9C947 /* ip6plus-1.png in Resources */,
 				E757C3071EEFC570009A7D76 /* tabbar-icon-makeup@2x.png in Resources */,
 				E757C3081EEFC570009A7D76 /* tabbar-icon-makeup@3x.png in Resources */,
 				E757C2FF1EEFC543009A7D76 /* tabbar-icon-works@2x.png in Resources */,
+				E765DD5B1EF1191200B7C49A /* search@3x.png in Resources */,
+				E7FF5A0C1EF235DD00F9C947 /* ip6-2.png in Resources */,
 				E757C3051EEFC570009A7D76 /* tabbar-icon-makeup-hl@2x.png in Resources */,
 				E757C3001EEFC543009A7D76 /* tabbar-icon-works@3x.png in Resources */,
+				E7FF5A091EF235DD00F9C947 /* 3.png in Resources */,
 				E757C2FD1EEFC543009A7D76 /* tabbar-icon-works-hl@2x.png in Resources */,
 				E757C2701EEF86B2009A7D76 /* Main.storyboard in Resources */,
+				E7FF5A0B1EF235DD00F9C947 /* ip6-1.png in Resources */,
+				E765DD5F1EF11A8700B7C49A /* message@3x.png in Resources */,
 				E757C2FE1EEFC543009A7D76 /* tabbar-icon-works-hl@3x.png in Resources */,
+				E7FF5A0D1EF235DD00F9C947 /* ip6-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,17 +645,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C7AA83057B0E67D3ECF5EE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87900B62BE0D6AD50AF455EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Electricity/Pods-Electricity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40EDC9AA479B13F2317C46A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Electricity/Pods-Electricity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E757C25E1EEF86B2009A7D76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75241691EF101D200D68E6F /* BasicTableView.m in Sources */,
 				E757C3131EEFC79C009A7D76 /* CustomTabbarController.m in Sources */,
 				E757C2DA1EEFBAF4009A7D76 /* ShopCarViewController.m in Sources */,
 				E757C2D71EEFBAE8009A7D76 /* ClassifyViewController.m in Sources */,
+				E765DD561EF108B500B7C49A /* UIScrollView+Refresh.m in Sources */,
 				E757C26D1EEF86B2009A7D76 /* ViewController.m in Sources */,
 				E757C2A31EEF8DDC009A7D76 /* StartViewController.m in Sources */,
 				E775D3F71EEFEBED00592B09 /* BasicViewController.m in Sources */,
+				E7FF5A161EF23B0100F9C947 /* HomeHeaderView.m in Sources */,
 				E757C2DD1EEFBAFB009A7D76 /* MyViewController.m in Sources */,
 				E757C26A1EEF86B2009A7D76 /* AppDelegate.m in Sources */,
 				E775D3FF1EEFECFA00592B09 /* LoginAndRegisterViewController.m in Sources */,
@@ -657,13 +862,18 @@
 		};
 		E757C2901EEF86B2009A7D76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CED193F2310BB60FF2C061 /* Pods-Electricity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZSZ3VSE2H;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Electricity/PrefixHeader.pch";
 				INFOPLIST_FILE = Electricity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = lgl.Electricity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -671,13 +881,18 @@
 		};
 		E757C2911EEF86B2009A7D76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BA2939393C596A9338BCF9 /* Pods-Electricity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZSZ3VSE2H;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Electricity/PrefixHeader.pch";
 				INFOPLIST_FILE = Electricity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = lgl.Electricity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
