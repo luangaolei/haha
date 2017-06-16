@@ -71,6 +71,7 @@
         
         UIView *noticeView = [[UIView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(otherView.frame), WIDTH, 100 * KSizeScale)];
 //        noticeView.backgroundColor = [UIColor orangeColor];
+        noticeView.clipsToBounds = YES;
         [self addSubview:noticeView];
         
         UIView *line = [[UIView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, 0.5)];
@@ -103,6 +104,9 @@
             noticeButton.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
         }        
         
+        UIView *line2 = [[UIView alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(noticeView.frame) - 0.5, WIDTH, 0.5)];
+        line2.backgroundColor = [UIColor blackColor];
+        [noticeView addSubview:line2];
     }
     return self;
 }

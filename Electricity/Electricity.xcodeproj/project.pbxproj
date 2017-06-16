@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		95CC77AFAA661EAA44FD9CFD /* libPods-Electricity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0039F95F1AE7492BFD126B /* libPods-Electricity.a */; };
+		E71336211EF3CFA300F285ED /* AdCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E71336201EF3CFA300F285ED /* AdCollectionViewCell.m */; };
+		E71336241EF3CFAE00F285ED /* RecommendCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E71336231EF3CFAE00F285ED /* RecommendCollectionViewCell.m */; };
+		E71336281EF3D83300F285ED /* RecommendCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E71336271EF3D83300F285ED /* RecommendCollectionReusableView.m */; };
 		E75241691EF101D200D68E6F /* BasicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75241681EF101D200D68E6F /* BasicTableView.m */; };
 		E757C2671EEF86B2009A7D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2661EEF86B2009A7D76 /* main.m */; };
 		E757C26A1EEF86B2009A7D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E757C2691EEF86B2009A7D76 /* AppDelegate.m */; };
@@ -83,6 +86,12 @@
 /* Begin PBXFileReference section */
 		79CED193F2310BB60FF2C061 /* Pods-Electricity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electricity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Electricity/Pods-Electricity.debug.xcconfig"; sourceTree = "<group>"; };
 		9D0039F95F1AE7492BFD126B /* libPods-Electricity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Electricity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E713361F1EF3CFA300F285ED /* AdCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdCollectionViewCell.h; sourceTree = "<group>"; };
+		E71336201EF3CFA300F285ED /* AdCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdCollectionViewCell.m; sourceTree = "<group>"; };
+		E71336221EF3CFAE00F285ED /* RecommendCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendCollectionViewCell.h; sourceTree = "<group>"; };
+		E71336231EF3CFAE00F285ED /* RecommendCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendCollectionViewCell.m; sourceTree = "<group>"; };
+		E71336261EF3D83300F285ED /* RecommendCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendCollectionReusableView.h; sourceTree = "<group>"; };
+		E71336271EF3D83300F285ED /* RecommendCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendCollectionReusableView.m; sourceTree = "<group>"; };
 		E75241671EF101D200D68E6F /* BasicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTableView.h; sourceTree = "<group>"; };
 		E75241681EF101D200D68E6F /* BasicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTableView.m; sourceTree = "<group>"; };
 		E757C2621EEF86B2009A7D76 /* Electricity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electricity.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +212,43 @@
 				F0BA2939393C596A9338BCF9 /* Pods-Electricity.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E713361C1EF3CF2300F285ED /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E71336251EF3D7F800F285ED /* viewForHeader */,
+				E713361D1EF3CF2300F285ED /* adCell */,
+				E713361E1EF3CF2300F285ED /* recommendCell */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		E713361D1EF3CF2300F285ED /* adCell */ = {
+			isa = PBXGroup;
+			children = (
+				E713361F1EF3CFA300F285ED /* AdCollectionViewCell.h */,
+				E71336201EF3CFA300F285ED /* AdCollectionViewCell.m */,
+			);
+			path = adCell;
+			sourceTree = "<group>";
+		};
+		E713361E1EF3CF2300F285ED /* recommendCell */ = {
+			isa = PBXGroup;
+			children = (
+				E71336221EF3CFAE00F285ED /* RecommendCollectionViewCell.h */,
+				E71336231EF3CFAE00F285ED /* RecommendCollectionViewCell.m */,
+			);
+			path = recommendCell;
+			sourceTree = "<group>";
+		};
+		E71336251EF3D7F800F285ED /* viewForHeader */ = {
+			isa = PBXGroup;
+			children = (
+				E71336261EF3D83300F285ED /* RecommendCollectionReusableView.h */,
+				E71336271EF3D83300F285ED /* RecommendCollectionReusableView.m */,
+			);
+			path = viewForHeader;
 			sourceTree = "<group>";
 		};
 		E752416A1EF102A000D68E6F /* MJRefresh */ = {
@@ -439,6 +485,7 @@
 		E765DD611EF11F3200B7C49A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E713361C1EF3CF2300F285ED /* cell */,
 				E7FF5A131EF23AC200F9C947 /* headerView */,
 			);
 			path = view;
@@ -709,10 +756,13 @@
 				E7FF5A161EF23B0100F9C947 /* HomeHeaderView.m in Sources */,
 				E757C2DD1EEFBAFB009A7D76 /* MyViewController.m in Sources */,
 				E757C26A1EEF86B2009A7D76 /* AppDelegate.m in Sources */,
+				E71336241EF3CFAE00F285ED /* RecommendCollectionViewCell.m in Sources */,
 				E775D3FF1EEFECFA00592B09 /* LoginAndRegisterViewController.m in Sources */,
 				E757C2671EEF86B2009A7D76 /* main.m in Sources */,
 				E757C2C91EEF94FC009A7D76 /* UIColor+HexString.m in Sources */,
 				E757C2D41EEFB920009A7D76 /* HomeViewController.m in Sources */,
+				E71336211EF3CFA300F285ED /* AdCollectionViewCell.m in Sources */,
+				E71336281EF3D83300F285ED /* RecommendCollectionReusableView.m in Sources */,
 				E757C2C61EEF9418009A7D76 /* MyTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

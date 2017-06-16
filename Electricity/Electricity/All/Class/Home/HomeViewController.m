@@ -8,6 +8,9 @@
 
 #import "HomeViewController.h"
 #import "HomeHeaderView.h"
+#import "AdCollectionViewCell.h"
+#import "RecommendCollectionViewCell.h"
+#import "RecommendCollectionReusableView.h"
 
 @interface HomeViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>{
     UICollectionView *_collectionView;
@@ -57,9 +60,9 @@
 - (UIView *)createSearchView:(BOOL)isView{
     searchView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, 44)];
     if (isView) {
-        searchView.frame = CGRectMake(15 * KSizeScale, 20, WIDTH - 23 * KSizeScale, 44);
+        searchView.frame = CGRectMake(17 * KSizeScale, 20, WIDTH - 25 * KSizeScale, 44);
     }else{
-        searchView.frame = CGRectMake(0, 0, WIDTH, 44);
+        searchView.frame = CGRectMake(0, 0, WIDTH - 25 * KSizeScale, 44);
     }
     searchView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
 
@@ -103,7 +106,9 @@
     headerView = [[HomeHeaderView alloc]initWithFrame:CGRectMake(0, -(WIDTH/2 + 200 * KSizeScale), WIDTH, (WIDTH/2 + 200 * KSizeScale)) andData:nil andVC:weakSelf];
     [_collectionView addSubview:headerView];
 
-//    [_collectionView registerClass:[MoreColumnCollectionViewCell class] forCellWithReuseIdentifier:@"moreColumn"];
+    [_collectionView registerClass:[AdCollectionViewCell class] forCellWithReuseIdentifier:@"adCell"];
+    [_collectionView registerClass:[RecommendCollectionViewCell class] forCellWithReuseIdentifier:@"recommendCell"];
+    [_collectionView registerClass:[RecommendCollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headerOrFooter"];
 }
 
 - (void)downLoad{
@@ -117,36 +122,79 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     
-    return _dataSource.count;
+//    return _dataSource.count;
+    if (section == 0) {
+        return 2;
+    }else{
+        return 6;
+    }
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-//    PumpkinColumnModel *model = (PumpkinColumnModel *)_dataSource[indexPath.row];
-//    MoreColumnCollectionViewCell *cell = (MoreColumnCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"moreColumn" forIndexPath:indexPath];
-//    [cell refreshWithModel:model];
-    
-    return nil;
+    if (indexPath.section == 0) {
+        AdCollectionViewCell *cell = (AdCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"adCell" forIndexPath:indexPath];
+        
+        return cell;
+    }else{
+        RecommendCollectionViewCell *cell = (RecommendCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"recommendCell" forIndexPath:indexPath];
+        
+        return cell;
+    }
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
+    if (kind == UICollectionElementKindSectionHeader) {
+        RecommendCollectionReusableView *view = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"headerOrFooter" forIndexPath:indexPath];
+        
+        return view;
+    }else{
+        return nil;
+    }
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    return CGSizeMake(120 * KSizeScale, 100 * KSizeScale);
+    if (indexPath.section == 0) {
+        return CGSizeMake(WIDTH, 320 * KSizeScale);
+    }
+    return CGSizeMake((WIDTH - 30 * KSizeScale)/2, 200 * KSizeScale);
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
     
-    return UIEdgeInsetsMake(7 * KSizeScale, 0 * KSizeScale, 7 * KSizeScale, 0 * KSizeScale);
+    if (section == 0) {
+        return UIEdgeInsetsMake(0 * KSizeScale, 0 * KSizeScale, 0 * KSizeScale, 0 * KSizeScale);
+    }else{
+        return UIEdgeInsetsMake(10 * KSizeScale, 10 * KSizeScale, 10 * KSizeScale, 10 * KSizeScale);
+    }
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
     
+    if (section == 1) {
+        return CGSizeMake(0, 40 * KSizeScale);
+    }else{
+        return CGSizeMake(0, 0);
+    }
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section{
+    
+    return CGSizeMake(0, 0);
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
     
-    return 7 * KSizeScale;
+    return 10 * KSizeScale;
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
     
-    return 7 * KSizeScale;
+    if (section == 0) {
+        return 0 * KSizeScale;
+    }else{
+        return 10 * KSizeScale;
+    }
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -162,19 +210,17 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    if (scrollView.contentOffset.y >= -64) {
-        CGFloat alpha = MIN(1, (WIDTH + scrollView.contentOffset.y)/WIDTH);
+    if (scrollView.contentOffset.y >= (-(WIDTH/2 + 200 * KSizeScale) + 64)) {
+        CGFloat alpha = MIN(1, (scrollView.contentOffset.y - (-(WIDTH/2 + 200 * KSizeScale) + 64))/64);
         self.navigationController.navigationBar.hidden = NO;
         self.navigationController.navigationBar.alpha = alpha;
         
         isNav = YES;
-//        searchView.hidden = NO;
     } else {
         self.navigationController.navigationBar.hidden = YES;
         self.navigationController.navigationBar.alpha = 0.0;
         
         isNav = NO;
-//        searchView.hidden = YES;
     }
 }
 
